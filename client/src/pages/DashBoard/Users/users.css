@@ -1,0 +1,28 @@
+.bigbox {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: 80%; 
+    height: 90%; 
+}
+
+.bigbox h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+.users-table {
+    width: 98%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.users-table th, .users-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.user-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

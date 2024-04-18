@@ -1,0 +1,16 @@
+.contact_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #f5f5f5;
+}
+
+.contact_page h1 {
+    margin-bottom: 20px;
+}
+
+.contact_page p {
+    margin-top: 20px;
+}

@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./homepage.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 60%;
+  height: 60%;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.content h1 {
+  margin: 0 0 10px 0;
+  padding: 0px;
+}
+
+.content p {
+  margin: 0 0 280px 0;
+
+}
+
+.content button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}

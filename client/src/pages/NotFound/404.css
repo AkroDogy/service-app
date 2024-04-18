@@ -1,0 +1,23 @@
+
+
+.title_404 {
+    font-size: 100px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description_404 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #000;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

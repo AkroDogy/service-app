@@ -1,0 +1,89 @@
+.bigbox p {
+  margin: 0 0 50px 55px;
+}
+
+.info_data {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input {
+  width: 200px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+}
+
+.submit_2 {
+  width: 230px;
+  background-color: rgba(0, 0, 0, 0.671);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 3% 34%;
+}
+
+.submit_2:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.text_input {
+  width: 25%; 
+  padding: 12px 20px;
+  margin: 8px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.text_input_2 {
+  width: 55%; 
+  padding: 12px 20px;
+  margin: 15px 20px 15px 15%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.text_input_3 {
+  width: 30%; 
+  padding: 12px 20px;
+  margin: 15px 20px 15px 8%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.text_input:focus, .text_input_2:focus, .text_input_3:focus {
+  border-color: #4CAF50;
+}
+
+.appointment_box {
+  margin: 20px 20px 0;
+}
+
+.appointment_box_2 {
+  margin: 23px 20px 0;
+}
+
+h2 {
+  position: relative;
+  margin-top: 40px;
+}
+
+h2 span {
+  background: #fff;
+  padding: 0 35%;
+  position: relative;
+}

@@ -1,0 +1,94 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    width: 90vw;
+    height: 90vh;
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+.box::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 260px;
+    width: 3px;
+    height: 87%;
+    background-color: rgb(0, 0, 0);
+    transform: translateY(-50%);
+    border-radius: 15px;
+  }
+
+  .minibox {
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    width: 200px;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+  }
+  .minibox a {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .minibox_2 {
+    position: absolute;
+    bottom: 5%;
+    left: 20px;
+    width: 200px;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .minibox_2 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .minibox_2::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 15px;
+  }
+  .bigbox {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: 80%; 
+    height: 90%; 
+  }
+  .bigbox h1 {
+    font-family: "Roboto", sans-serif;
+  }
